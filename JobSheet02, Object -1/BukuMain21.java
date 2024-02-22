@@ -24,5 +24,10 @@ public class BukuMain21 {
         int hargaTotal = bukuAfiq.hitungHargaTotal(jumlahTerjual);
         int diskon = bukuAfiq.hitungDiskon(hargaTotal);
         int hargaBayar = bukuAfiq.hitungHargaBayar(hargaTotal, diskon);
+
+        System.out.println("Jumlah terjual : " + jumlahTerjual);
+        System.out.println("Harga total: Rp " + hargaTotal);
+        System.out.println("Diskon: Rp " + diskon);
+        System.out.println("Harga bayar: Rp " + hargaBayar);
     }
 }
